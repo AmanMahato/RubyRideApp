@@ -1,0 +1,46 @@
+"BirthOrder",President,Date of birth,Birthplace,State of birth,In office,Date Started Office,Date Ended Office,Id
+1,George Washington,"February 22, 1732",Westmoreland County,Virginia,"April 30, 1789 - March 4, 1797","April 30, 1789 ","March 4, 1797",1
+2,John Adams,"October 30, 1735",Braintree,Massachusetts,"March 4, 1797 - March 4, 1801","March 4, 1797 ","March 4, 1801",2
+3,Thomas Jefferson,"April 13, 1743",Shadwell,Virginia,"March 4, 1801 - March 4, 1809","March 4, 1801 ","March 4, 1809",3
+4,James Madison,"March 16, 1751",Port Conway,Virginia,"March 4, 1809 - March 4, 1817","March 4, 1809 ","March 4, 1817",4
+5,James Monroe,"April 28, 1758",Monroe Hall,Virginia,"March 4, 1817 - March 4, 1825","March 4, 1817 ","March 4, 1825",5
+6,Andrew Jackson,"March 15, 1767",Waxhaws Region,South/North Carolina,"March 4, 1829 - March 4, 1837","March 4, 1829 ","March 4, 1837",6
+7,John Quincy Adams,"July 11, 1767",Braintree,Massachusetts,"March 4, 1825 - March 4, 1829","March 4, 1825 ","March 4, 1829",7
+8,William Henry Harrison,"February 9, 1773",Charles City County,Virginia,"March 4, 1841 - April 4, 1841","March 4, 1841 ","April 4, 1841",8
+9,Martin Van Buren,"December 5, 1782",Kinderhook,New York,"March 4, 1837 - March 4, 1841","March 4, 1837 ","March 4, 1841",9
+10,Zachary Taylor,"November 24, 1784",Barboursville,Virginia,"March 4, 1849 - July 9, 1850","March 4, 1849 "," July 9, 1850",10
+11,John Tyler,"March 29, 1790",Charles City County,Virginia,"April 4, 1841 - March 4, 1845","April 4, 1841 ","March 4, 1845",11
+12,James Buchanan,"April 23, 1791",Cove Gap,Pennsylvania,"March 4, 1857 - March 4, 1861","March 4, 1857 ","March 4, 1861",12
+13,James K. Polk,"November 2, 1795",Pineville,North Carolina,"March 4, 1845 - March 4, 1849","March 4, 1845 ","March 4, 1849",13
+14,Millard Fillmore,"January 7, 1800",Summerhill,New York,"July 9, 1850 - March 4, 1853","July 9, 1850 ","March 4, 1853",14
+15,Franklin Pierce,"November 23, 1804",Hillsborough,New Hampshire,"March 4, 1853 - March 4, 1857","March 4, 1853 ","March 4, 1857",15
+16,Andrew Johnson,"December 29, 1808",Raleigh,North Carolina,"April 15, 1865 - March 4, 1869","April 15, 1865 ","March 4, 1869",16
+17,Abraham Lincoln,"February 12, 1809",Sinking !Sinking Spring,Kentucky,"March 4, 1861 - April 15, 1865","March 4, 1861 ","April 15, 1865",17
+18,Ulysses S. Grant,"April 27, 1822",Point Pleasant,Ohio,"March 4, 1869 - March 4, 1877","March 4, 1869 ","March 4, 1877",18
+19,Rutherford B. Hayes,"October 4, 1822",Delaware,Ohio,"March 4, 1877 - March 4, 1881","March 4, 1877 ","March 4, 1881",19
+20,Chester A. Arthur,"October 5, 1829",Fairfield,Vermont,"September 19, 1881 - March 4, 1885","September 19, 1881 ","March 4, 1885",20
+21,James A. Garfield,"November 19, 1831",Moreland Hills,Ohio,"March 4, 1881 - September 19, 1881","March 4, 1881 ","September 19, 1881",21
+22,Benjamin Harrison,"August 20, 1833",North Bend,Ohio,"March 4, 1889 - March 4, 1893","March 4, 1889 ","March 4, 1893",22
+23,Grover Cleveland,"March 18, 1837",Caldwell,New Jersey,"March 4, 1885 - March 4, 1889","March 4, 1885 ","March 4, 1889",23
+,,,,,"March 4, 1893 - March 4, 1897","March 4, 1893 ","March 4, 1897",
+24,William McKinley,"January 29, 1843",Niles,Ohio,"March 4, 1897 - September 14, 1901","March 4, 1897 ","mber 14, 1901",24
+25,Woodrow Wilson,"December 28, 1856",Staunton,Virginia,"March 4, 1913 - March 4, 1921",4-Mar-13,4-Mar-21,25
+26,William H. Taft,"September 15, 1857",Cincinnati,Ohio,"March 4, 1909 - March 4, 1913",4-Mar-09,4-Mar-13,26
+27,Theodore Roosevelt,"October 27, 1858",New York City,New York,"September 14, 1901 - March 4, 1909",14-Sep-01,4-Mar-09,27
+28,Warren G. Harding,"November 2, 1865",Blooming Grove,Ohio,"March 4, 1921 - August 2, 1923",4-Mar-21," August 2, 1923",28
+29,Calvin Coolidge,"July 4, 1872",Plymouth,Vermont,"August 2, 1923 - March 4, 1929",2-Aug-23,4-Mar-29,29
+30,Herbert Hoover,"August 10, 1874",West Branch,Iowa,"March 4, 1929 - March 4, 1933",4-Mar-29,4-Mar-33,30
+31,Franklin D. Roosevelt,"January 30, 1882",Hyde Park,New York,"March 4, 1933 - April 12, 1945",4-Mar-33,12-Apr-45,31
+32,Harry S. Truman,"May 8, 1884",Lamar,Missouri,"April 12, 1945 - January 20, 1953",12-Apr-45,20-Jan-53,32
+33,Dwight D. Eisenhower,"October 14, 1890",Denison,Texas,"January 20, 1953 - January 20, 1961",20-Jan-53,20-Jan-61,33
+34,Lyndon B. Johnson,27-Aug-08,Stonewall,Texas,"November 22, 1963 - January 20, 1969",22-Nov-63," January 20, 1969",34
+35,Ronald Reagan,6-Feb-11,Tampico,Illinois,"January 20, 1981 - January 20, 1989",20-Jan-81,20-Jan-89,35
+36,Richard M. Nixon,9-Jan-13,Yorba Linda,California,"January 20, 1969 - August 9, 1974",20-Jan-69," August 9, 1974",36
+37,Gerald R. Ford,14-Jul-13,Omaha,Nebraska,"August 9, 1974 - January 20, 1977",9-Aug-74,20-Jan-77,37
+38,John F. Kennedy,29-May-17,Brookline,Massachusetts,"January 20, 1961 - November 22, 1963",20-Jan-61,22-Nov-63,38
+39,George H. W. Bush,12-Jun-24,Milton,Massachusetts,"January 20, 1989 - January 20, 1993",20-Jan-89,20-Jan-93,39
+40,Jimmy Carter,1-Oct-24,Plains,Georgia,"January 20, 1977 - January 20, 1981",20-Jan-77,20-Jan-81,40
+41,Donald Trump,14-Jun-46,New York City,New York,"January 20, 2017 - Incumbent",20-Jan-17,Incumbent,41
+42,George W. Bush,6-Jul-46,New Haven,Connecticut,"January 20, 2001 - January 20, 2009",20-Jan-01,20-Jan-09,42
+43,Bill Clinton,19-Aug-46,Hope,Arkansas,"January 20, 1993 - January 20, 2001",20-Jan-93,20-Jan-01,43
+44,Barack Obama,4-Aug-61,Honolulu,Hawaii,"January 20, 2009 - January 20, 2017",20-Jan-09,20-Jan-17,44
