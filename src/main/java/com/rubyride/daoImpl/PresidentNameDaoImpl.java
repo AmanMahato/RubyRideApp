@@ -8,6 +8,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.annotations.common.util.impl.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -17,6 +18,7 @@ import java.util.logging.Logger;
  */
 
 @Repository
+@Transactional
 public class PresidentNameDaoImpl implements PresidentNameDao {
 
 

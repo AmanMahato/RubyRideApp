@@ -3,12 +3,14 @@ package com.rubyride.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * @author Aman Mahato
  */
 
 @Entity
+@Table(name="PresidentInfo")
 public class President {
 
     @Id
@@ -18,16 +20,6 @@ public class President {
     @Column(name = "name")
     public String presidentName;
 
-    @Column(name = "name_guid")
-    public String presidentNameGuid;
-
-    public String getPresidentNameGuid() {
-        return presidentNameGuid;
-    }
-
-    public void setPresidentNameGuid(String presidentNameGuid) {
-        this.presidentNameGuid = presidentNameGuid;
-    }
 
     public Integer getBirthOrder() {
         return birthOrder;
