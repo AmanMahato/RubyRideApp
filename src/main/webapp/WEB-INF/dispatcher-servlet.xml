@@ -40,9 +40,9 @@
     <bean id="sessionFactory"
           class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
-        <property name="packagesToScan" value="com.rubyride" />
+        <property name="packagesToScan" value="com.rubyride.relational" />
         <property name="annotatedClasses"> <list>
-            <value>com.rubyride.model.President</value>
+            <value>com.rubyride.relational.model.President</value>
         </list> </property>
         <property name="hibernateProperties">
             <props>
@@ -59,7 +59,7 @@
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
-    <bean id="presidentNameDao" class="com.rubyride.daoImpl.PresidentNameDaoImpl">
+    <bean id="presidentNameDao" class="com.rubyride.relational.daoImpl.PresidentNameDaoImpl">
         <property name="sessionFactory" ref="sessionFactory" />
     </bean>
 

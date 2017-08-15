@@ -17,7 +17,7 @@
 <h3>Please Click</h3> <form action="/handlePresidentName"><input type="submit" value="Here"></form> <h3>to Securely stores Presidents name in a SQL table.</h3>
 
 
-<h3>Please Click</h3><form action=""><input type="submit" value="Here"></form><h3>to Stores all date information (birth date, date started office, date ended office) in a time-tree (r-tree) in Neo4j</h3>
+<h3>Please Click</h3><form action="/save"><input type="submit" value="Here"></form><h3>to Stores all date information (birth date, date started office, date ended office) in a time-tree (r-tree) in Neo4j</h3>
 
 <p>
     Below are the functionality of the app.To use those features, please make sure you have clicked the above two buttons.
