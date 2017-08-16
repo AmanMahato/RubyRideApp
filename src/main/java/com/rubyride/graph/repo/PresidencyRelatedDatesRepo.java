@@ -1,19 +1,12 @@
-/*
-package com.rubyride.repo;
+package com.rubyride.graph.repo;
 
-import com.rubyride.model.PresidencyRelatedDates;
+import com.rubyride.graph.model.PresidencyRelatedDates;
 import org.springframework.data.neo4j.repository.GraphRepository;
 
-*/
-/**
- * @author Aman Mahato
- *//*
 
-*/
-/*
+
 public interface PresidencyRelatedDatesRepo extends GraphRepository<PresidencyRelatedDates>{
 
 
 }
-*/
 

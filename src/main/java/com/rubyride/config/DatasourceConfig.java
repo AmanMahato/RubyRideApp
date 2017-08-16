@@ -1,10 +1,4 @@
-/*
 package com.rubyride.config;
-
-*/
-/**
- * @author Aman Mahato
- *//*
 
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.neo4j.ogm.session.Session;
@@ -18,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
+//import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.neo4j.config.Neo4jConfiguration;
 import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
@@ -31,12 +26,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.sql.DataSource;
 
 @Configuration
-@EnableNeo4jRepositories(basePackages = "com.rubyride")
-@EnableJpaRepositories(basePackages = "com.rubyride", transactionManagerRef = "mysqlTransactionManager")
+@EnableNeo4jRepositories(basePackages = "com.rubyride.graph")
+@EnableJpaRepositories(basePackages = "com.rubyride.relational", transactionManagerRef = "mysqlTransactionManager")
 @EnableTransactionManagement
 public class DatasourceConfig extends Neo4jConfiguration {
 
@@ -108,7 +102,7 @@ public class DatasourceConfig extends Neo4jConfiguration {
 
     @Autowired
     @Primary
-    @Bean(name = "mysqlTransactionManager")
+    @Bean(name = "myTransactionManager")
     public JpaTransactionManager mysqlTransactionManager(LocalContainerEntityManagerFactoryBean entityManagerFactory)
             throws Exception {
         return new JpaTransactionManager(entityManagerFactory.getObject());
@@ -125,5 +119,3 @@ public class DatasourceConfig extends Neo4jConfiguration {
         );
     }
 }
-
-*/
